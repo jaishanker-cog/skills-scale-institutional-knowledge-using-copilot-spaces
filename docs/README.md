@@ -1,0 +1,11 @@
+```markdown
+# OctoAcme — Project Management Processes (Overview)
+
+OctoAcme runs projects using an iterative, customer-first lifecycle: Initiation, Planning, Execution, Release, and Close/Retrospective. Core artifacts include a Project One‑pager / Charter, a prioritized backlog with acceptance criteria, a release and milestone map, a living risk register, and retrospective action items. The aim is to break work into small, testable increments and keep decisions and rationale documented in the project repository as the single source of truth.
+
+Day‑to‑day workflows emphasize visible, predictable flow and high‑quality changes. The project board uses columns such as Backlog → Ready → In Progress → In Review → QA → Done. Pull requests are kept small, link back to the originating issue and acceptance criteria, and run CI checks (tests, linting, security scanning) before review. Planning activities include a kickoff, prioritized backlog creation, estimates, a Definition of Done, and a release/milestone plan; cross‑team dependencies and risks are called out on the board and reviewed in regular syncs.
+
+Roles and communication are explicit: the Project Manager (PM) coordinates delivery, schedule, risks, and stakeholder communications while the Product Manager (PdM) defines outcomes, prioritizes the backlog, and measures success. Developers implement and test features and participate in reviews; QA validates acceptance criteria and run manual checks when needed. The cadence includes short daily standups, weekly delivery syncs, PM–PdM alignment meetings, demo/review at the end of each sprint or milestone, and monthly stakeholder updates. Blockers follow an escalation path from team → PM → Product Lead → Sponsor.
+
+Quality assurance and release controls are integrated into the pipeline: unit and integration tests, security scanning in CI, and end‑to‑end smoke tests for critical flows. Releases require passing CI, completed acceptance criteria, released notes, and a rollback/mitigation plan; staging smoke tests and post‑deploy verifications are standard. Continuous improvement is formalized via retrospectives that produce prioritized action items with owners and due dates; those items are converted to backlog work so the team measures impact and iterates on process improvements.
+```
